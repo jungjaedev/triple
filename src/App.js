@@ -1,7 +1,11 @@
-import './App.css';
+import Award from './Sections/Award';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Award />
+    </div>
+  );
 }
 
 export default App;
